@@ -29,17 +29,6 @@ public class MessengerLogin {
         topBar.setBackground(new Color(239, 236, 239));
         topBar.setPreferredSize(new Dimension(1036, 28));
 
-        JButton closeButton = new JButton("×");
-        closeButton.setBorder(BorderFactory.createEmptyBorder());
-        closeButton.setContentAreaFilled(false);
-        closeButton.setForeground(Color.BLACK);
-        closeButton.setEnabled(false);
-        closeButton.setFocusable(false);
-        closeButton.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
-        topBar.add(closeButton, BorderLayout.EAST);
-
-        frame.add(topBar, BorderLayout.NORTH);
-
         JPanel mainPanel = new JPanel();
         mainPanel.setLayout(new BoxLayout(mainPanel, BoxLayout.Y_AXIS));
         mainPanel.setBackground(new Color(242, 239, 242));
